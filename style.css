@@ -31,9 +31,10 @@
 
   --fs-n: 1.5rem;
   --fs-md: calc(var(--fs-n) * 1.5);
-  --fs-lg: calc(var(--fs-n) * 5);
+  --fs-lg: calc(var(--fs-n) * 3);
   --ff: "HankenGrotesk";
   --fw-sm: 400;
+  --fw-md: 550;
   --fw-lg: 700;
   --br-sm: 15%;
   --br-md: 20%;
@@ -94,11 +95,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: calc(var(--fs-n) * 0.7);
 }
 
 .score span {
   font-size: var(--fs-lg);
   color: var(--clr-white);
+  font-weight: var(--fw-lg);
 }
 
 .text {
@@ -112,8 +115,9 @@ body {
 
 .text span {
   color: var(--clr-white);
-  font-size: 1.5rem;
-  font-weight: var(--fw-lg);
+  font-size: var(--fs-n);
+  font-weight: var(--fw-md);
+  letter-spacing: 0.1rem;
 }
 
 .summary-card {
@@ -179,9 +183,11 @@ body {
 
 .scale {
   color: var(--clr-gray-blue);
+  font-size: calc(var(--fs-n) * 0.7);
 }
 .scale span {
   color: black;
+  font-size: calc(var(--fs-n) * 0.7);
   font-weight: var(--fw-lg);
   padding: 0 calc(var(--unit-sm) / 3);
 }
@@ -193,6 +199,9 @@ button {
   border-radius: 100vw;
   padding: var(--unit-sm) var(--unit-n);
   width: 100%;
+  font-size: calc(var(--fs-n) * 0.6);
+  font-weight: var(--fw-lg);
+  letter-spacing: 0.1rem;
 }
 
 button:hover {
