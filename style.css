@@ -44,7 +44,7 @@ body {
   margin: 0;
   font: inherit;
   font-family: var(--ff);
-  background-color: var(--clr-light-gray);
+  background-color: hsl(0, 5%, 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
