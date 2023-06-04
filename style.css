@@ -59,6 +59,8 @@ body {
   justify-content: space-between;
   border-radius: var(--unit-n);
   max-width: 70%;
+  box-shadow: calc(var(--unit-n) / 2) var(--unit-n) var(--unit-md)
+    hsla(0, 0%, 0%, 0.4);
 }
 
 .result-card {
@@ -92,7 +94,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: ;
 }
 
 .score span {
